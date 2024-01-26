@@ -25,6 +25,13 @@ public class SierpinskiCarpet {
     }
 
     /**
+     * See Sierpinski Triangle for why we use String.
+     * Base case order = 0 just gets size lines filled with stars.
+     * Each Carpet is a 3x3 compound, with center empty (spaces) and each of the other 8 a carpet of 1 order less.
+     * We build the carpet by calculating the lesser order, then composing the lines to go at the top and bottom
+     * (which are the same), and the lines that go in the middle (with the middle space)
+     * Having top/bottom and middle, final result is concatenating those
+     *
      * @param order order of the carpet
      * @param size  size of side
      * @return list of (side = size) strings to draw
@@ -54,5 +61,7 @@ public class SierpinskiCarpet {
         }
     }
 
-
+    private SierpinskiCarpet() {
+        // utility class
+    }
 }

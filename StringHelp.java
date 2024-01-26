@@ -1,6 +1,10 @@
 import java.util.Arrays;
 
 public class StringHelp {
+    private StringHelp() {
+        // utility class
+    }
+
     /**
      * @param length desired length for the line
      * @return a line made up length spaces
