@@ -12,6 +12,12 @@
 - Recursion! https://runestone.academy/ns/books/published/pythonds/Recursion/pythondsSierpinskiTriangle.html
 - There are variety of implementation of those algorithms =)
 
+## Judging criteria:
+- Clean code: The code should be well-structured, easy to read, and maintainable. It should follow good programming practices and conventions.
+- Correctness: The program should produce the correct output for the given input.
+- Efficiency: The program should be efficient in terms of time and space complexity. It should not take too long to run or consume too much memory. (Recursion depth, redundancy, collections, floating unused variables etc)
+- Edge cases
+
 ### Step 1 Sierpinski triangle n=1
 Write a Java program to draw Triangle as below.
 
